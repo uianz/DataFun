@@ -88,7 +88,9 @@ export default function FormComponent() {
         </Upload>
       </Form.Item>
       <Form.Item label="Button">
-        <Button type="primary">Button</Button>
+        <Button type="primary" className="bg-gray-500">
+          Button2
+        </Button>
       </Form.Item>
     </Form>
   );

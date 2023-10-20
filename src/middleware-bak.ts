@@ -12,5 +12,6 @@ export default createMiddleware({
 
 export const config = {
   // Skip all paths that aren't pages that you'd like to internationalize
+  // matcher: ['/((?!api|_next|.*\\..*).*)'],
   matcher: ['/((?!api|_next|.*\\..*).*)'],
 };
